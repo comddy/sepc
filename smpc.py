@@ -58,7 +58,7 @@ def GetQues(ques):
 		list_box.insert("end",res_answer[i]+"\n")
 		list_box.insert("end","-------------------------------------------------------------------------------------\n")
 r = Tk()
-r.title("学小易PC版查题 --by小吴")
+r.title("学小易PC版查题 --by小白")
 r.geometry("750x650")
 # r.resizable(False,True)
 l = Label(r,text="请输入问题：").grid(row=0,column=0,ipadx=5,pady=20,sticky='w')
